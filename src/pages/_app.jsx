@@ -13,9 +13,7 @@ function MyApp({ Component, pageProps }) {
         <title>#</title>
       </Head>
       <ThemeProvider theme={theme}>
-        <Layout>
           <Component {...pageProps} />
-        </Layout>
         <GlobalStyles />
       </ThemeProvider>
     </>
